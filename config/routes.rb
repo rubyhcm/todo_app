@@ -14,5 +14,5 @@ Rails.application.routes.draw do
 
   # get 'books/*section/:title', to: 'books#show'
   # would match books/some/section/last-words-a-memoir with params[:section] equals 'some/section', and params[:title] equals 'last-words-a-memoir'.
-
+  resources :tasks, only: :index
 end
