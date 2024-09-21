@@ -70,3 +70,9 @@ group :test do
 end
 
 gem "responders"
+gem "bullet"
+
+# webpacker
+# bundle
+# bin/rails webpacker:install
+gem "shakapacker", "~> 6.6.0"
